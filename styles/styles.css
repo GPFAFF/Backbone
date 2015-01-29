@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+html{
+	background: #8e44ad;
+	}
+body{
+	margin: 0 auto;
+	font-family: 'Open Sans Condensed', sans-serif;	
+}
+#todoapp{
+	margin: 0 auto;
+	text-align: center;
+	width: 500px;
+	background: gray;
+	opacity: 0.8;
+	border-radius: 3px;
+	box-shadow: 3px 3px 23px white;
+}
+#todo-list{
+	list-style-type: none;
+	padding: 20px;
+}
+#todo-list input.edit{
+	display: none;
+}
+#todo-list .editing label{
+	display: none;
+}
+#todo-list .editiing input.edit{
+	display: inline;
+}
+#button{
+	padding: 20px;
+	background-color: green;
+}
+.routes{
+	margin-top: 30px;
+}
+input{
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
